@@ -7,9 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Import custom Navbar component
 import Navbar from './Components/Navbar/Navbar';
 import Landing_Page from './Components/Landing_Page/Landing_page';
-import Sign_Up_page from './Components/Sign_Up/Sign_Up';
-
-
+import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultationBooking/InstantConsultation'; 
 // Function component for the main App
 function App() {
 
@@ -26,6 +24,7 @@ function App() {
                  <Routes>
             {/* Define individual Route components for different pages */}
             <Route path="/" element={<Landing_Page/>}/>
+            <Route path="/instant-consultation" element={<InstantConsultation />} />
           </Routes>
         </BrowserRouter>
     </div>
