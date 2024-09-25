@@ -55,6 +55,12 @@ const Sign_Up = () => {
         }
     };
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+       console.log("username",name)
+       
+    };
+
     // JSX to render the Sign Up form
     return (
         <div className="container" style={{marginTop:'5%'}}>
@@ -79,6 +85,9 @@ const Sign_Up = () => {
            <input value={password} onChange={(e) => setPassword(e.target.value)} name="password" id="password" className="form-control" placeholder="Enter your password" aria-describedby="helpId" />
 
        </div>
+       <button onClick={handleSubmit} className="btn" type="submit">
+                    Submit
+                </button>
                         {/* Apply similar logic for other form elements like name, phone, and password to capture user information */}
                     </form>
                 </div>
