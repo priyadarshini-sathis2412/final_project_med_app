@@ -11,7 +11,8 @@ import InstantConsultation from './Components/InstantConsultationBooking/Instant
 import AppointmentFormIC from './Components/InstantConsultationBooking/InstantConsultationBooking/AppointmentFormIC/AppointmentFormIC';
 import Notification from './Components/Notification/Notification';
 import Login from './Components/Login/Login';
-import  SignUp from './Components/Sign_Up/Sign_Up'
+import  SignUp from './Components/Sign_Up/Sign_Up';
+import Reviews from './Components/ReviewForm/ReviewForm';
 // Function component for the main App
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
             <Route path="/login" element={<Login />}/>
                 <Route path="/signup" element={<SignUp />}/>
                 <Route path="/notification" element={<Notification />}/>
+                <Route path="/reviews" element={<Reviews />} />
           </Routes>
         </BrowserRouter>
     </div>
