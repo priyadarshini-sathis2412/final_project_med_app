@@ -13,6 +13,7 @@ import Notification from './Components/Notification/Notification';
 import Login from './Components/Login/Login';
 import  SignUp from './Components/Sign_Up/Sign_Up';
 import Reviews from './Components/ReviewForm/ReviewForm';
+import GiveReviews from './Components/ReviewForm/Feedback';
 // Function component for the main App
 function App() {
 
@@ -35,6 +36,8 @@ function App() {
                 <Route path="/signup" element={<SignUp />}/>
                 <Route path="/notification" element={<Notification />}/>
                 <Route path="/reviews" element={<Reviews />} />
+                <Route path="/feedback" element={<GiveReviews />} />
+                
           </Routes>
         </BrowserRouter>
     </div>
