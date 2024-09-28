@@ -15,6 +15,7 @@ import  SignUp from './Components/Sign_Up/Sign_Up';
 import Reviews from './Components/ReviewForm/ReviewForm';
 import GiveReviews from './Components/ReviewForm/Feedback';
 import ProfileForm from './Components/ProfileCard/ProfileCard';
+import ReviewLayout from './Components/ReportLayout/ReportLayout';
 // Function component for the main App
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
                 <Route path="/reviews" element={<Reviews />} />
                 <Route path="/feedback" element={<GiveReviews />} />
                  <Route path="/profile" element={<ProfileForm />} />
+                 <Route path="/reviewlayout" element={<ReviewLayout />} />
                
           </Routes>
         </BrowserRouter>
