@@ -1,3 +1,59 @@
+/* src/components/ProfileForm/ProfileForm.css */
+.profile-container {
+    max-width: 500px; /* Limit width for better appearance */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px; /* Add padding around the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White background for the form */
+}
+
+h1 {
+    font-size: 24px; /* Size for the welcome header */
+    margin-bottom: 20px; /* Space below the header */
+    color: #333; /* Dark gray color for text */
+}
+
+.profile-details {
+    margin-bottom: 20px; /* Space below the details section */
+}
+
+label {
+    display: block; /* Stack labels and inputs */
+    margin-bottom: 10px; /* Space between labels */
+    font-weight: bold; /* Bold for emphasis */
+    color: #555; /* Medium gray for labels */
+}
+
+input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding for better touch area */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Font size for inputs */
+}
+
+input:disabled {
+    background-color: #f0f0f0; /* Light gray for disabled input */
+}
+
+button {
+    padding: 10px 15px; /* Padding for buttons */
+    background-color: #3685fb; /* Button color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size for buttons */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+button:hover {
+    background-color: #286bb8; /* Darker shade on hover */
+}
+
+
 /* Following code has been commented with appropriate comments for your reference.
 */
 /* Styles for the container holding the profile information */

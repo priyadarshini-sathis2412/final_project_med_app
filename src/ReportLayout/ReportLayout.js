@@ -4,7 +4,7 @@ const data = [
     { sno :'1', doctorname:"Dr.John Doe", doctorspecility:"Cardiology",viewreport:"",downloadreport:""},
 	{ sno :'2', doctorname:"Dr.John Smith", doctorspecility:"Dermatology",viewreport:"",downloadreport:""},
 ]
-function ReviewLayout() {
+function ReportLayout() {
 	return (
 		<div className="review">
 			<table>
@@ -32,4 +32,4 @@ function ReviewLayout() {
 	);
 }
 
-export default ReviewLayout;
+export default ReportLayout;
