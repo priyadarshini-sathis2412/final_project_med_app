@@ -1,5 +1,4 @@
 import React from "react"; // Importing the necessary modules from React library
-import { Link } from "react-router-dom"; // Importing the Link component from react-router-dom library
 import "./LandingPage.css"; // Importing the CSS styles for the Landing_Page component
 
 // Defining the Function component Landing_Page
@@ -24,7 +23,7 @@ const Landing_Page = () => {
                   <div class="blue1 blob"></div> {/* Creating a different blue blob inside the second 'blob-cont' div */}
               </div>
             <h4>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque at quae ducimus. Suscipit omnis quibusdam non cum rem voluptatem!
+                Initially the Ministry of Health and Family Welfare had two Departments, Each of these Departments was headed by the Secretary to the Government of India:-Department of Health & Family Welfare and Department of Health Research.
             </h4>
             <a href="#services"> {/* Creating a hyperlink to jump to the 'services' section */}
               <button class="button">Get Started</button> {/* Creating a button with class name 'button' */}
